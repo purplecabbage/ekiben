@@ -1,0 +1,7 @@
+*.DS_Store
+build
+*.xcodeproj/jesse*
+/ViewStack.xcodeproj/jesse.perspectivev3
+/ViewStack.xcodeproj/jesse.pbxuser
+/ViewStack.xcodeproj/jesse.mode1v3
+/Resources-iPad/README
