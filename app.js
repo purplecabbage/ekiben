@@ -19,14 +19,7 @@ function init()
 	evt.initMouseEvent("click", true, true, window,
 					   0, 0, 0, 0, 0, false, false, false, false, 0, null);
 	document.getElementById("li1").dispatchEvent(evt);
-	
-	var gb0 = new GloveBox("view1Content");
-	
-	gb0.snap= {y:60};
-	
-	var gb1 = new GloveBox("view2Content");
-	var gb2 = new GloveBox("view3Content");
-	
+
 	
 	makeFakeData();
 	

@@ -128,7 +128,7 @@ input[type="text"], input[type="password"], input[type="email"]
 
 .listWrapper
 {
-	overflow:hidden;
+	overflow:scroll;
 	position:relative;
 	bottom:0px;
 	top:30px;
@@ -136,6 +136,7 @@ input[type="text"], input[type="password"], input[type="email"]
 	height:380px;
 	left:0px;
 	background-color:#222;
+
 }
 
 .view ul {
@@ -147,17 +148,11 @@ input[type="text"], input[type="password"], input[type="email"]
 .view li 
 {
 	list-style:none;
-	padding:2px 4px;
-	height:56px;
-	background:-webkit-gradient(
-			linear,
-			left top,
-			left bottom,
-			color-stop(0, rgba(0,0,0,0.1)),
-			color-stop(1, rgba(128,128,128,0.1))
-	)
-			
-	
+	padding:4px 4px;
+	height:36px;
+	line-height: 36px;
+	background:#333;
+	border-top:1px solid #000;
 }
 
 
