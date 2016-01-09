@@ -9,7 +9,6 @@ Function.prototype.bind = function(sub) {
 
 function init()
 {
-	document.addEventListener("touchmove",preventDefault,true);
 	document.addEventListener("deviceready",onDeviceReady);
 	window.addEventListener("orientationchange", setOrientation);
 	
@@ -133,14 +132,6 @@ function onHideTransitionEnd(e)
     }
     // always remove the listener
     e.currentTarget.removeEventListener( 'webkitTransitionEnd',onHideTransitionEnd, false );
-}
-
-
-function preventDefault(evt)
-{
-	evt.preventDefault();
-	
-	return false;
 }
 
 function setOrientation() 
